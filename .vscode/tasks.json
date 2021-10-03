@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "debug",
+			"group": "rebuild",
+			"problemMatcher": [],
+			"label": "npm: debug",
+			"detail": "NODE_OPTIONS=\"--inspect\" next dev"
+		}
+	]
+}
