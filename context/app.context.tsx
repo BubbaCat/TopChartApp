@@ -1,7 +1,6 @@
 import { createContext, PropsWithChildren, useState } from 'react';
+import { MenuItem } from '../interfaces/menu.interface';
 import { TopLevelCategory } from '../interfaces/page.interface';
-import {MenuItem} from '../interfaces/menu.interface';
-
 
 export interface IAppContext {
 	menu: MenuItem[];
@@ -21,3 +20,4 @@ export const AppContextProvider = ({ menu, firstCategory, children }: PropsWithC
 		{children}
 	</AppContext.Provider>;
 };
+
